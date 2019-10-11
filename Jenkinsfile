@@ -3,15 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh '''echo "shell script"
-
-
-
-
-
-
-
-'''
+        sh 'uname -a'
       }
     }
   }
