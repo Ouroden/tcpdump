@@ -4,7 +4,8 @@ pipeline {
     stage('Build') {
       agent {
         docker {
-          image 'ubuntu'
+          args '-u 0'
+          image 'alpine'
         }
 
       }
